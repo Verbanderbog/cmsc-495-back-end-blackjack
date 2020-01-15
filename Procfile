@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* BlackjackWebSocket
+web: java -jar target/CMSC495BackEndBlackjack-1.0-SNAPSHOT.jar
