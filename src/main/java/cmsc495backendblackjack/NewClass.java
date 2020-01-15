@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.cmsc495backendblackjack;
+package cmsc495backendblackjack;
 
 import javax.websocket.*;
 import javax.websocket.server.ServerEndpoint;
