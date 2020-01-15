@@ -13,5 +13,21 @@ import javax.websocket.server.ServerEndpoint;
  */
 @ServerEndpoint("")
 public class NewClass {
-  
+  @OnOpen
+  public void handleOpen() {
+    
+  }
+  @OnMessage
+  public String handleMessage(String message) {
+    String replyMessage = "Message received: " + message;
+    return replyMessage;
+  }
+  @OnClose
+  public void handleClose() {
+    
+  }
+  @OnError
+  public void handleError(Throwable t) {
+    
+  }
 }
