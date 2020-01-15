@@ -11,8 +11,8 @@ import javax.websocket.server.ServerEndpoint;
  *
  * @author Dylan Veraart
  */
-@ServerEndpoint("")
-public class NewClass {
+@ServerEndpoint("/ws")
+public class BlackjackWebSocket {
   @OnOpen
   public void handleOpen() {
     
